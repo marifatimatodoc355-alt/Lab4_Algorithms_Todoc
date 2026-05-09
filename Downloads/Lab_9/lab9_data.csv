@@ -1,0 +1,32 @@
+Software,Creator,Initial_release,Software_license,Open_source,Platform,Written_in,Interface,OpenMP_support,OpenCL_support,CUDA_support,ROCm_support,Automatic_differentiation,Has_pretrained_models,Recurrent_nets,Convolutional_nets,RBM/DBNs,Parallel_execution(multi_node),Actively_developed
+BigDL,Jason Dai (Intel),2016,Apache 2.0,Yes,Apache Spark,Scala,"Scala, Python",,,No,No,,Yes,Yes,Yes,,,Yes
+Caffe,Berkeley Vision and Learning Center,2013,BSD,Yes,"Linux, macOS, Windows[3]",C++,"Python, MATLAB, C++",Yes,Under development[4],Yes,No,Yes,Yes[5],Yes,Yes,No,?,No[6]
+Chainer,Preferred Networks,2015,BSD,Yes,"Linux, macOS",Python,Python,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No[7]
+Deeplearning4j,Skymind engineering team; Deeplearning4j community; originally Adam Gibson,2014,Apache 2.0,Yes,"Linux, macOS, Windows, Android (Cross-platform)","C++, Java","Java, Scala, Clojure, Python (Keras), Kotlin",Yes,No[8],Yes[9][10],No,Computational Graph,Yes[11],Yes,Yes,Yes,Yes[12],Yes
+DeepSpeed,Microsoft,2019,Apache 2.0,Yes,"Linux, macOS, Windows","Python, C++, CUDA",Python,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+Dlib,Davis King,2002,Boost Software License,Yes,Cross-platform,C++,"C++, Python",Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes
+Fastai,fast.ai,2018,Apache 2.0,Yes,"Linux, macOS, Windows","Python, CUDA",Python,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+Flux,Mike Innes,2017,MIT,Yes,"Linux, macOS, Windows (Cross-platform)",Julia,Julia,,,Yes,No,Yes,Yes[13],Yes,Yes,No,Yes,Yes
+Horovod,Uber Technologies,2017,Apache 2.0,Yes,"Linux, macOS, Windows","Python, C++, CUDA",Python,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+Intel Data Analytics Acceleration Library,Intel,2015,Apache 2.0,Yes,"Linux, macOS, Windows on Intel CPU[14]","C++, Python, Java","C++, Python, Java[14]",Yes,No,No,No,Yes,No,,Yes,,Yes,Yes
+Intel Math Kernel Library 2017 [15] and later,Intel,2017,Proprietary,No,"Linux, macOS, Windows on Intel CPU[16]","C/C++, DPC++, Fortran",C[17],Yes[18],No,No,No,Yes,No,Yes[19],Yes[19],,No,Yes
+Google JAX,Google,2018,Apache 2.0,Yes,"Linux, macOS, Windows",Python,Python,,,Only on Linux,No,Yes,No,,,,Yes,Yes
+Keras,François Chollet,2015,MIT,Yes,"Linux, macOS, Windows",Python,"Python, R",Only if using Theano as backend,"Can use Theano, Tensorflow or PlaidML as backends",Yes,No,Yes,Yes[20],Yes,Yes,No[21],Yes[22],Yes
+MATLAB + Deep Learning Toolbox (formerly Neural Network Toolbox),MathWorks,1992,Proprietary,No,"Linux, macOS, Windows","C, C++, Java, MATLAB",MATLAB,No,No,Train with Parallel Computing Toolbox and generate CUDA code with GPU Coder[23],No,Yes[24],Yes[25][26],Yes[25],Yes[25],Yes,With Parallel Computing Toolbox[27],Yes
+Microsoft Cognitive Toolkit (CNTK),Microsoft Research,2016,MIT[28],Yes,"Windows, Linux[29] (macOS via Docker on roadmap)",C++,"Python (Keras), C++, Command line,[30] BrainScript[31] (.NET on roadmap[32])",Yes[33],No,Yes,No,Yes,Yes[34],Yes[35],Yes[35],No[36],Yes[37],No[38]
+MindSpore,Huawei,2020,Apache 2.0,Yes,"Linux, Windows, macOS, EulerOS, openEuler, OpenHarmony, Oniro OS, HarmonyOS, Android","C++, Rust, Julia, Python, ArkTS, Cangjie, Java (Lite)",,,,,,,,,,,,
+ML.NET,Microsoft,2018,MIT,Yes,"Windows, Linux, macOS","C#, C++","C#, F#",,,,,,,,,,,Yes
+Apache MXNet,Apache Software Foundation,2015,Apache 2.0,Yes,"Linux, macOS, Windows,[39][40] AWS, Android,[41] iOS, JavaScript[42]",Small C++ core library,"C++, Python, Julia, MATLAB, JavaScript, Go, R, Scala, Perl, Clojure",Yes,No,Yes,No,Yes[43],Yes[44],Yes,Yes,Yes,Yes[45],No
+Neural Designer,Artelnics,2014,Proprietary,No,"Linux, macOS, Windows",C++,Graphical user interface,Yes,No,Yes,No,Analytical differentiation,No,No,No,No,Yes,Yes
+OpenNN,Artelnics,2003,GNU LGPL,Yes,Cross-platform,C++,C++,Yes,No,Yes,No,?,Yes[46],No,No,No,?,Yes
+PlaidML,"Vertex.AI, Intel",2017,Apache 2.0,Yes,"Linux, macOS, Windows","Python, C++, OpenCL","Python, C++",?,Some OpenCL ICDs are not recognized,No,No,Yes,Yes,Yes,Yes,,Yes,Yes
+PyTorch,Meta AI,2016,BSD,Yes,"Linux, macOS, Windows, Android[47]","Python, C, C++, CUDA","Python, C++, Julia, R[48]",Yes,Via separately maintained package[49][50][51],Yes,Yes,Yes,Yes,Yes,Yes,Yes[52],Yes,Yes
+PyTorch Lightning,Lightning-AI (originally William Falcon)[53],2019,Apache 2.0,Yes,"Linux, macOS, Windows",Python,Python,Yes,Via PyTorch,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[54],Yes
+Apache SINGA,Apache Software Foundation,2015,Apache 2.0,Yes,"Linux, macOS, Windows",C++,"Python, C++, Java",No,Supported in V1.0,Yes,No,?,Yes,Yes,Yes,Yes,Yes,Yes
+TensorFlow,Google Brain,2015,Apache 2.0,Yes,"Linux, macOS, Windows,[55][56] Android","C++, Python, CUDA","Python (Keras), C/C++, Java, Go, JavaScript, R,[57] Julia, Swift",No,On roadmap[58] but already with SYCL[59] support,Yes,Yes,Yes[60],Yes[61],Yes,Yes,Yes,Yes,Yes
+TensorRT,Nvidia,2017,Proprietary,No,"Linux, Windows on Nvidia GPUs","C++, Python, CUDA","C++, Python",No,No,Yes,No,No,No,No,Yes,No,No,Yes
+Theano,Université de Montréal,2007,BSD,Yes,Cross-platform,Python,Python (Keras),Yes,Under development[62],Yes,No,Yes[63][64],Through Lasagne's model zoo[65],Yes,Yes,Yes,Yes[66],No
+Torch,"Ronan Collobert, Koray Kavukcuoglu, Clement Farabet",2002,BSD,Yes,"Linux, macOS, Windows,[67] Android,[68] iOS","C, Lua","Lua, LuaJIT,[69] C, utility library for C++/OpenCL[70]",Yes,Third party implementations[71][72],Yes[73][74],No,Through Twitter's Autograd[75],Yes[76],Yes,Yes,Yes,Yes[67],No
+RANT (Real-time Artificial Neural Tool)[77],Douglas Santry,2023,BSD,Yes,"Linux, macOS, Windows","C++, Python","C++, Python",No,No,No,No,No,Yes,No,Yes,No,No,Yes
+Wolfram Mathematica 10[78] and later,Wolfram Research,2014,Proprietary,No,"Windows, macOS, Linux, Cloud computing","C++, Wolfram Language, CUDA",Wolfram Language,Yes,No,Yes,No,Yes,Yes[79],Yes,Yes,Yes,Yes[80],Yes
+Software,Creator,Initial release,Software license[a],Open source,Platform,Written in,Interface,OpenMP support,OpenCL support,CUDA support,ROCm support[81],Automatic differentiation[2],Has pretrained models,Recurrent nets,Convolutional nets,RBM/DBNs,Parallel execution(multi node),Actively developed
